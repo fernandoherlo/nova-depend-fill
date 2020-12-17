@@ -1,5 +1,5 @@
 {
-    "name": "fernandoherlo/nova-depend-fill",
+    "name": "klepak/nova-depend-fill",
     "description": "Fill Laravel Nova field based on value from other field.  ",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "fernandoherlo\\DependFill\\": "src/"
+            "Klepak\\DependFill\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "fernandoherlo\\DependFill\\FieldServiceProvider"
+                "Klepak\\DependFill\\FieldServiceProvider"
             ]
         }
     },
